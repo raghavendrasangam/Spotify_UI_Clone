@@ -26,8 +26,6 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
-    justify-content: center;
-    text-align: center;
 }
 
 .music_player{
@@ -134,5 +132,36 @@ a {
     margin-top: 0.5rem;
     height: 2rem;
     width: fit-content;
-
 } 
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.rest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
